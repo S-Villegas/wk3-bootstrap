@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <!-- the link above allows for incorporating bootstrap frameworks to this project- it is on every html page -->
+</head>
+<body>
+    <!-- Navbar begins here -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Why visit "Location" </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" aria-current="page" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  What is Nearby
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Destination 1</a></li>
+                  <li><a class="dropdown-item" href="#">Destination 2</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Destination 3</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Room Gallery</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Room Info</a>
+            </li> 
+
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Promotions</a>
+            </li>
+          </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- Navbar ends here -->
+
+    <!-- Table begins here-BUITTON NOT WORKING -->
+    <h2> Room Availability <span class= "badge badge-primary">NOVEMBER 2023</span></h2>
+    <!-- div class below centers table, and won't take up full width -->
+    <div class="container">
+    <table class=" table table-dark table-hover">
+      <tr>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+      </tr>
+      <tr>
+        <td>na</td>
+        <td>na</td>
+        <td>na</td>
+        <td>na</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>na</td>
+        <td>na</td>
+        <td>na</td>
+        <td>na</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>na</td>
+        <td>na</td>
+        <td>na</td>
+        <td>na</td>
+        <td>17</td>
+        <td>18</td>
+        <td>19</td>
+      </tr>
+      <tr>
+        <td>20</td>
+        <td>21</td>
+        <td>22</td>
+        <td>na</td>
+        <td>na</td>
+        <td>25</td>
+        <td>26</td>
+      </tr>
+      <tr>
+        <td>na</td>
+        <td>na</td>
+        <td>na</td>
+        <td>na</td>
+        <td>Dec</td>
+        <td>Dec</td>
+        <td>Dec</td>
+      </tr>
+        
+    </table>
+  </div>
+      <!-- Table ends here -->
+
+    <!--Button to reserve now starts -->
+    <button type="button" class="btn btn-warning">Make Reservation Now</button>
+    <!--Button to reserve now ends here -->
+
+
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script> 
+<!-- the link above allows for incorporating bootstrap frameworks to this project- it is on every html page -->
+</body>
+</html>
